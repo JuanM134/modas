@@ -1,0 +1,425 @@
+html, body{
+
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    scroll-behavior: smooth;
+    font-family: 'Cinzel', serif;;
+    
+}
+
+#contenedor{
+
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    font-family: 'Cinzel', serif;
+
+}
+
+#moda{
+
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 8.5px;
+    border-bottom: solid rgb(230, 230, 230) 1px;
+}
+
+
+
+
+section	{
+
+    z-index: 1;
+    height: 100vh;
+    border-bottom: solid black 1px;
+    font-family: 'Cinzel', serif;
+
+}
+
+#nav{
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    text-decoration: none;
+    border-bottom: solid rgb(24, 24, 24) 1px;
+    
+    
+}
+
+#nav ul{
+
+    padding-left: 60%;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#nav ul li a{
+
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size:  20px;
+}
+
+
+#nav{
+
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    line-height: 22px;
+    position: fixed;
+    top: 0;
+}
+
+#nav ul{
+
+    padding-left: 60%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+#nav ul li a{
+
+    display: block;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+
+
+#pag1{
+
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    
+}
+
+
+#imagen1{
+
+
+    height: auto;
+
+}
+
+#imagen2{
+
+    height: auto;
+
+}
+
+#pag2{
+
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    
+    
+}
+
+
+#pag3{
+
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.527);
+    background-size: 100% 100%;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+#pag4{
+
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    background-size: 100% 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+#pag5{
+
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.527);
+    background-size: 100% 100%;
+
+}
+
+#titulo5{
+
+    text-align: center;
+    padding-top: 2%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.parrafo7{
+
+    font-size: 16.5px;
+    color: rgb(252, 252, 252);
+    text-align:justify;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+
+
+form{
+
+    padding: 60px;
+
+}
+
+form label{
+
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+#espaciado{
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+#boton{
+
+    height: 40px;
+    width: auto;
+    display: block;
+    align-items: center;
+    border-radius: 10%;
+    background-color: black;
+    color:  white;
+    border: none;
+    font-size: 18px;
+    
+}
+
+#boton:hover{
+
+    background-color: rgb(119, 119, 119);
+    color:  white;
+    border: none;
+
+}
+
+#pie{
+
+    height: 13.4%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-size: 100% 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+
+}
+
+.carousel-item{
+
+    height: 98vh;
+    background: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.container h1{
+    
+    text-align: center;
+}
+
+.container p{
+    
+    text-align: center;
+    font-size: 20px;
+}
+
+.overlay-image{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top:0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    
+}
+
+.card{
+
+    height: 495px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgb(151, 151, 151);
+    
+}
+
+.card-img{
+
+   padding-top: 5px;
+   margin: 0;
+
+}
+
+#alineacion{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media only screen and (max-width: 1200px){
+
+    #pag2{
+
+        height: auto;
+
+    }
+
+    #pag3{
+
+        height: auto;
+        
+
+    }
+
+    #pag4{
+
+        height: auto;
+        
+    }
+
+    #alineacion{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card{
+
+        margin: 10px;
+    }
+
+
+}
+
+p{
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 800px){
+
+    #nav ul li a{
+
+        font-size: 11.5px;
+        display: block;
+        text-align: center;
+
+    }
+
+
+}
+
+@media(max-width:600px){
+
+    #nav ul{
+
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+    
+    }
+    
+    #nav ul li{
+    
+        display: block;
+        width:auto;
+        float: right;
+        font-size: 13.1px;
+        text-align: center;
+    
+    }
+
+    .dropdown{
+
+display: none;
+
+}
+
+    #moda{
+
+        display: none ;
+
+    }
+
+    
+
+    
+}
+
+@media only screen and (max-width: 500px){
+
+    #nav ul li a{
+
+        font-size: 8px;
+        display: block;
+        text-align: center;
+        
+
+    }
+
+
+ }
+
+
+
